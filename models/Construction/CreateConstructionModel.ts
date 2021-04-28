@@ -6,6 +6,8 @@ export interface CreateConstructionModel {
     status: ConstructionStatus,
     companyId: 1,
     created_at: Date,
-    
     address: string,
+    projectManager: number[],
+    shopManager: number[],
+    depositor: number[],
 }

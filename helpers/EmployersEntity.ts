@@ -15,6 +15,4 @@ export class EmployersEntity {
     @ManyToOne(() => Constructions)
     construction: Constructions;
     
-    @Column()
-    constructionId: number
 }
